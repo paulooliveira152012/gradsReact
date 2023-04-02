@@ -18,10 +18,11 @@ function App() {
   return (
     <div>
       <Header onButtonClick={handleButtonClick} />
-      {sectionToShow === "Main" && <Main />}
+      {/* {sectionToShow === "Main" && <Main />} */}
       {sectionToShow === "Section1" && <Section1 />}
       {sectionToShow === "Section2" && <Section2 />}
       {sectionToShow === "Section3" && <Section3 />}
+      <Main />
       <Footer />
     </div>
   );

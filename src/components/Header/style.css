@@ -1,0 +1,11 @@
+header {
+    background-color: lightblue;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#buttons {
+    margin-left: 50px;
+}
