@@ -7,6 +7,26 @@ header {
     justify-content: space-around;
 }
 
+.container {
+    display: flex;
+    /* background-color: red; */
+}
+
 #buttons {
     margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    height: 20px;
+    margin: auto;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+img {
+    width: 75px;
+    float: left;
 }
