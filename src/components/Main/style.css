@@ -1,5 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 main {
     background-color: blue;
     color: white;
     height: 70vh;
+}
+
+h2 {
+    margin: 0;
 }

@@ -19,6 +19,7 @@ function App() {
   return (
     <div>
       <Header onButtonClick={handleButtonClick} />
+      <Hero />
       <Main>
       {sectionToShow === "Section1" && <Section1 />}
       {sectionToShow === "Section2" && <Section2 />}
