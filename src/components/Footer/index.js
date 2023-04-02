@@ -1,6 +1,10 @@
+import './style.css'
+
 function Footer() {
     return(
-        <h2>Footer!</h2>
+        <footer>
+            <h2>Footer!</h2>
+        </footer>
     )
 };
 

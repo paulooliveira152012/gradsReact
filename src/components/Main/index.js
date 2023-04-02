@@ -1,6 +1,11 @@
-function Main() {
+import './style.css'
+
+function Main(props) {
     return(
-        <h2>Main</h2>
+        <main>
+            <h2>Main</h2>
+            {props.children}
+        </main>
     )
 };
 
